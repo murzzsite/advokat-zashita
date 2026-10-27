@@ -322,3 +322,25 @@ main { background: var(--bg); }
   .menu__name { flex-basis: 100%; }
 }
 @media (max-width: 380px) { .logo__name { display: none; } }
+
+/* ---------- name in calligraphy ---------- */
+.script { font-family: 'Marck Script', 'EB Garamond', cursive; font-weight: 400; font-style: normal; letter-spacing: 0; }
+.logo__name.script { font-size: var(--step-lead); }
+.sign__name { position: relative; display: inline-block; font-size: var(--step-h2); line-height: 1.25; padding-right: 30px; }
+.sign__ink { display: inline-block; }
+.pen { position: absolute; right: 0; bottom: 0.1em; color: var(--accent); transform: rotate(32deg); transform-origin: 50% 100%; }
+.sign__role { max-width: 30em; margin-top: 10px; }
+.footer__word.script { font-size: clamp(5rem, 26vw, 24rem); line-height: 1; letter-spacing: 0; margin-bottom: 0; padding-bottom: 0.05em; }
+.header__tel { font-size: var(--step-ui); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.contact__list { margin-top: 28px; display: grid; gap: 8px; font-size: var(--step-body); }
+.contact__small { max-width: 34em; }
+@media (prefers-reduced-motion: no-preference) {
+  .js .sign .sign__ink { clip-path: inset(-10% 100% -20% 0); }
+  .js .sign.is-in .sign__ink { animation: write 2200ms var(--ease-in-out) 300ms forwards; }
+  .js .sign .pen { left: 0; right: auto; opacity: 0; }
+  .js .sign.is-in .pen { animation: pen-move 2200ms var(--ease-in-out) 300ms forwards; }
+}
+@keyframes write { to { clip-path: inset(-10% 0 -20% 0); } }
+@keyframes pen-move { 0% { left: 0; opacity: 1; } 100% { left: calc(100% - 24px); opacity: 1; } }
+@media (max-width: 1280px) { .header__tel { display: none; } }
+@media (max-width: 560px) { .sign__name { font-size: var(--step-lead); } }
