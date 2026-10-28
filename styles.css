@@ -344,3 +344,10 @@ main { background: var(--bg); }
 @keyframes pen-move { 0% { left: 0; opacity: 1; } 100% { left: calc(100% - 24px); opacity: 1; } }
 @media (max-width: 1280px) { .header__tel { display: none; } }
 @media (max-width: 560px) { .sign__name { font-size: var(--step-lead); } }
+
+/* ---------- portraits ---------- */
+.portrait { margin-top: 40px; max-width: 380px; }
+.portrait img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+.contact__side .portrait { margin-top: 44px; }
+@media (max-width: 900px) { .portrait { max-width: 320px; } }
+.contact__list a, .contact__small a { text-decoration-color: currentColor; }
