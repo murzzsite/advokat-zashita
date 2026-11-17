@@ -351,3 +351,7 @@ main { background: var(--bg); }
 .contact__side .portrait { margin-top: 44px; }
 @media (max-width: 900px) { .portrait { max-width: 320px; } }
 .contact__list a, .contact__small a { text-decoration-color: currentColor; }
+
+.badge { display: flex; align-items: center; gap: 16px; margin-top: 32px; }
+.badge img { width: 88px; height: 88px; object-fit: cover; display: block; }
+.badge figcaption { font-size: var(--step-ui); color: var(--muted); max-width: 14em; }
