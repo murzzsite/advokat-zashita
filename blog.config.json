@@ -1,0 +1,39 @@
+{
+  "siteName": "Адвокат Денис Ёлкин",
+  "siteUrl": "https://advocatdenisaleksandrovichelkin.ru",
+  "lang": "ru",
+  "repo": "murzzsite/advokat-zashita",
+  "ref": "X4EAVX633J",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Статьи адвоката Дениса Ёлкина об уголовной защите, гражданских и арбитражных спорах.",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Денис Александрович Ёлкин",
+    "jobTitle": "Адвокат",
+    "type": "Person"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Оставьте имя и способ связи. Подробности дела не нужны: их лучше обсудить лично, под защитой адвокатской тайны.",
+  "ctaButton": "Обсудить дело",
+  "ctaUrl": "/#contact",
+  "disclaimer": "Информация носит справочный характер и не заменяет юридическую консультацию. Исход дела зависит от его обстоятельств и решения суда, результат не гарантируется.",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/privacy.html"
+  ],
+  "indexNowKey": "4fba68c3849bece9d387de3081f04b88",
+  "previewSecret": "4494c92e5788629a",
+  "theme": {
+    "accent": "var(--accent)",
+    "bg": "var(--bg)",
+    "surface": "var(--surface)",
+    "ink": "var(--ink)",
+    "soft": "var(--muted)",
+    "line": "var(--field-1)",
+    "accent-soft": "color-mix(in srgb, var(--accent) 10%, #ffffff)"
+  }
+}

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /blog/preview/
+
+Sitemap: https://advocatdenisaleksandrovichelkin.ru/sitemap.xml
