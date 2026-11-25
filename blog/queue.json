@@ -1,15 +1,15 @@
 {
   "site": "https://advocatdenisaleksandrovichelkin.ru",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "awaiting": [],
-  "scheduled": [
+  "scheduled": [],
+  "published": [
     {
       "slug": "kak-vybrat-advokata-po-ugolovnomu-delu",
       "title": "Как выбрать адвоката по уголовному делу: чек-лист и вопросы",
+      "url": "https://advocatdenisaleksandrovichelkin.ru/blog/kak-vybrat-advokata-po-ugolovnomu-delu/",
       "date": "2026-11-25"
-    }
-  ],
-  "published": [
+    },
     {
       "slug": "chto-delat-pri-zaderzhanii-blizkogo",
       "title": "Что делать, если близкого человека задержали: первые 48 часов",
